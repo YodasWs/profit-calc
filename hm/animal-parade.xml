@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!-- Data copied from the following source: http://fogu.com/hm/animal_parade/cooking_recipes.php -->
+<recipes xmlns="http://yodasws.github.io/profit-calc">
+	<qualities>
+		<quality level="0">Decent</quality>
+		<quality level="1">Good</quality>
+		<quality level="2">Perfect</quality>
+		<quality level="3">Shining</quality>
+	</qualities>
+	<items>
+		<item>Milk</item>
+		<item>Sheep Milk</item>
+		<item>Goat Milk</item>
+		<item>Tomato</item>
+		<item>Eggplant</item>
+		<item>Bell Pepper</item>
+		<item>Onion</item>
+		<item>Egg</item>
+		<item>Duck Egg</item>
+		<item>Ostrich Egg</item>
+		<item>Mayonnaise</item>
+		<item>Duckonnaise</item>
+		<item>Ostrichonnaise</item>
+	</items>
+	<class name="Milk">
+		<item>Milk</item>
+		<item>Sheep Milk</item>
+		<item>Goat Milk</item>
+	</class>
+	<class name="Mayonnaise">
+		<item>Mayonnaise</item>
+		<item>Duckonnaise</item>
+		<item>Ostrichonnaise</item>
+	</class>
+	<class name="Vegetable">
+		<item>Tomato</item>
+		<item>Eggplant</item>
+		<item>Bell Pepper</item>
+		<item>Onion</item>
+	</class>
+	<recipe name="Mayonnaise">
+		<item>Egg</item>
+	</recipe>
+	<recipe name="Duckonnaise">
+		<item>Duck Egg</item>
+	</recipe>
+	<recipe name="Ostrichonnaise">
+		<item>Ostrich Egg</item>
+	</recipe>
+	<recipe name="Vegetable Salad" revenue="419">
+		<class>Vegetable</class>
+		<class>Mayonnaise</class>
+	</recipe>
+	<recipe name="Ratatoullie" revenue="785">
+		<item>Tomato</item>
+		<item>Eggplant</item>
+		<item>Bell Pepper</item>
+		<item>Onion</item>
+	</recipe>
+	<recipe name="Stir Fry" revenue="244">
+		<class>Vegetable</class>
+	</recipe>
+	<recipe name="Decent Perfume" revenue="390">
+		<class>Flower</class>
+		<class>Flower</class>
+	</recipe>
+</recipes>
