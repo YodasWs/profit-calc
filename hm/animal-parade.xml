@@ -2,25 +2,57 @@
 <!-- Data copied from the following source: http://fogu.com/hm/animal_parade/cooking_recipes.php -->
 <recipes xmlns="http://yodasws.github.io/profit-calc">
 	<qualities>
-		<quality level="0">Decent</quality>
-		<quality level="1">Good</quality>
-		<quality level="2">Perfect</quality>
-		<quality level="3">Shining</quality>
+		<quality>Decent</quality>
+		<quality>Good</quality>
+		<quality>Perfect</quality>
+		<quality>Shining</quality>
 	</qualities>
 	<items>
-		<item>Milk</item>
-		<item>Sheep Milk</item>
-		<item>Goat Milk</item>
-		<item>Tomato</item>
-		<item>Eggplant</item>
-		<item>Bell Pepper</item>
-		<item>Onion</item>
-		<item>Egg</item>
-		<item>Duck Egg</item>
-		<item>Ostrich Egg</item>
-		<item>Mayonnaise</item>
-		<item>Duckonnaise</item>
-		<item>Ostrichonnaise</item>
+		<item name="Milk">
+		</item>
+		<item name="Sheep Milk">
+		</item>
+		<item name="Goat Milk">
+		</item>
+		<item name="Tomato">
+		</item>
+		<item name="Eggplant">
+		</item>
+		<item name="Bell Pepper">
+		</item>
+		<item name="Onion">
+		</item>
+		<item name="Egg">
+			<revenue>50</revenue>
+			<revenue>80</revenue>
+			<revenue>100</revenue>
+			<revenue>150</revenue>
+		</item>
+		<item name="Duck Egg">
+			<revenue>80</revenue>
+			<revenue>120</revenue>
+			<revenue>160</revenue>
+			<revenue>240</revenue>
+		</item>
+		<item name="Ostrich Egg">
+		</item>
+		<item name="Mayonnaise">
+			<revenue>80</revenue>
+			<revenue>100</revenue>
+			<revenue>130</revenue>
+			<revenue>190</revenue>
+		</item>
+		<item name="Duckonnaise">
+			<revenue>140</revenue>
+		</item>
+		<item name="Ostrichonnaise">
+		</item>
+		<item name="Cucumber">
+			<revenue>160</revenue>
+			<revenue>200</revenue>
+			<revenue>240</revenue>
+			<revenue>360</revenue>
+		</item>
 	</items>
 	<class name="Milk">
 		<item>Milk</item>
@@ -37,6 +69,7 @@
 		<item>Eggplant</item>
 		<item>Bell Pepper</item>
 		<item>Onion</item>
+		<item>Cucumber</item>
 	</class>
 	<recipe name="Mayonnaise">
 		<item>Egg</item>

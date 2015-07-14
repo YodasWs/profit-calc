@@ -1,0 +1,17 @@
+/** CSS Reset **/
+* { -webkit-box-sizing: border-box; box-sizing: border-box; }
+:root { font-family: 'Trebuchet MS', 'Open San', sans-serif; font-size: 1em; }
+html { margin: 0; padding: 0; }
+body { margin: 0 auto; max-width: 1080px; padding: 5px 10px; }
+a:link, a:visited { color: #0000ff; text-decoration: none; }
+a img, a:link img, a:visited img { border: 0 none; }
+
+label {
+	display: block;
+}
+output { display: block; }
+input[type="number"] {
+	text-align: right;
+}
+
+output .loss { color: red; }
