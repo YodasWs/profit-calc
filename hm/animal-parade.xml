@@ -1,4 +1,5 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../form.xsl"?>
 <!-- Data copied from the following source: http://fogu.com/hm/animal_parade/cooking_recipes.php -->
 <recipes xmlns="http://yodasws.github.io/profit-calc">
 	<qualities>
